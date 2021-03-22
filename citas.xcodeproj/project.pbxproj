@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE45FA526088717008B641E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE45FA426088717008B641E /* Tests_iOS.swift */; };
+		6CE45FB026088717008B641E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE45FAF26088717008B641E /* Tests_macOS.swift */; };
+		6CE45FB226088717008B641E /* citasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE45F8926088715008B641E /* citasApp.swift */; };
+		6CE45FB326088717008B641E /* citasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE45F8926088715008B641E /* citasApp.swift */; };
+		6CE45FB426088717008B641E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE45F8A26088715008B641E /* ContentView.swift */; };
+		6CE45FB526088717008B641E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE45F8A26088715008B641E /* ContentView.swift */; };
+		6CE45FB626088717008B641E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE45F8B26088717008B641E /* Assets.xcassets */; };
+		6CE45FB726088717008B641E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE45F8B26088717008B641E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE45FA126088717008B641E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE45F8426088715008B641E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE45F8F26088717008B641E;
+			remoteInfo = "citas (iOS)";
+		};
+		6CE45FAC26088717008B641E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CE45F8426088715008B641E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CE45F9726088717008B641E;
+			remoteInfo = "citas (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CE45F8926088715008B641E /* citasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citasApp.swift; sourceTree = "<group>"; };
+		6CE45F8A26088715008B641E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CE45F8B26088717008B641E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE45F9026088717008B641E /* citas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE45F9326088717008B641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE45F9826088717008B641E /* citas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE45F9A26088717008B641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE45F9B26088717008B641E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6CE45FA026088717008B641E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE45FA426088717008B641E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		6CE45FA626088717008B641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE45FAB26088717008B641E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE45FAF26088717008B641E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		6CE45FB126088717008B641E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE45F8D26088717008B641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45F9526088717008B641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45F9D26088717008B641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45FA826088717008B641E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE45F8326088715008B641E = {
+			isa = PBXGroup;
+			children = (
+				6CE45F8826088715008B641E /* Shared */,
+				6CE45F9226088717008B641E /* iOS */,
+				6CE45F9926088717008B641E /* macOS */,
+				6CE45FA326088717008B641E /* Tests iOS */,
+				6CE45FAE26088717008B641E /* Tests macOS */,
+				6CE45F9126088717008B641E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE45F8826088715008B641E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6CE45F8926088715008B641E /* citasApp.swift */,
+				6CE45F8A26088715008B641E /* ContentView.swift */,
+				6CE45F8B26088717008B641E /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6CE45F9126088717008B641E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE45F9026088717008B641E /* citas.app */,
+				6CE45F9826088717008B641E /* citas.app */,
+				6CE45FA026088717008B641E /* Tests iOS.xctest */,
+				6CE45FAB26088717008B641E /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE45F9226088717008B641E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE45F9326088717008B641E /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6CE45F9926088717008B641E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE45F9A26088717008B641E /* Info.plist */,
+				6CE45F9B26088717008B641E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6CE45FA326088717008B641E /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE45FA426088717008B641E /* Tests_iOS.swift */,
+				6CE45FA626088717008B641E /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		6CE45FAE26088717008B641E /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE45FAF26088717008B641E /* Tests_macOS.swift */,
+				6CE45FB126088717008B641E /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE45F8F26088717008B641E /* citas (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE45FBA26088717008B641E /* Build configuration list for PBXNativeTarget "citas (iOS)" */;
+			buildPhases = (
+				6CE45F8C26088717008B641E /* Sources */,
+				6CE45F8D26088717008B641E /* Frameworks */,
+				6CE45F8E26088717008B641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "citas (iOS)";
+			productName = "citas (iOS)";
+			productReference = 6CE45F9026088717008B641E /* citas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE45F9726088717008B641E /* citas (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE45FBD26088717008B641E /* Build configuration list for PBXNativeTarget "citas (macOS)" */;
+			buildPhases = (
+				6CE45F9426088717008B641E /* Sources */,
+				6CE45F9526088717008B641E /* Frameworks */,
+				6CE45F9626088717008B641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "citas (macOS)";
+			productName = "citas (macOS)";
+			productReference = 6CE45F9826088717008B641E /* citas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CE45F9F26088717008B641E /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE45FC026088717008B641E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				6CE45F9C26088717008B641E /* Sources */,
+				6CE45F9D26088717008B641E /* Frameworks */,
+				6CE45F9E26088717008B641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE45FA226088717008B641E /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 6CE45FA026088717008B641E /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6CE45FAA26088717008B641E /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE45FC326088717008B641E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				6CE45FA726088717008B641E /* Sources */,
+				6CE45FA826088717008B641E /* Frameworks */,
+				6CE45FA926088717008B641E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CE45FAD26088717008B641E /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 6CE45FAB26088717008B641E /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE45F8426088715008B641E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6CE45F8F26088717008B641E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6CE45F9726088717008B641E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6CE45F9F26088717008B641E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6CE45F8F26088717008B641E;
+					};
+					6CE45FAA26088717008B641E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 6CE45F9726088717008B641E;
+					};
+				};
+			};
+			buildConfigurationList = 6CE45F8726088715008B641E /* Build configuration list for PBXProject "citas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE45F8326088715008B641E;
+			productRefGroup = 6CE45F9126088717008B641E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE45F8F26088717008B641E /* citas (iOS) */,
+				6CE45F9726088717008B641E /* citas (macOS) */,
+				6CE45F9F26088717008B641E /* Tests iOS */,
+				6CE45FAA26088717008B641E /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE45F8E26088717008B641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE45FB626088717008B641E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45F9626088717008B641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE45FB726088717008B641E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45F9E26088717008B641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45FA926088717008B641E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE45F8C26088717008B641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE45FB426088717008B641E /* ContentView.swift in Sources */,
+				6CE45FB226088717008B641E /* citasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45F9426088717008B641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE45FB526088717008B641E /* ContentView.swift in Sources */,
+				6CE45FB326088717008B641E /* citasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45F9C26088717008B641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE45FA526088717008B641E /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE45FA726088717008B641E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE45FB026088717008B641E /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CE45FA226088717008B641E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE45F8F26088717008B641E /* citas (iOS) */;
+			targetProxy = 6CE45FA126088717008B641E /* PBXContainerItemProxy */;
+		};
+		6CE45FAD26088717008B641E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CE45F9726088717008B641E /* citas (macOS) */;
+			targetProxy = 6CE45FAC26088717008B641E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CE45FB826088717008B641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CE45FB926088717008B641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6CE45FBB26088717008B641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnxti.citas;
+				PRODUCT_NAME = citas;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE45FBC26088717008B641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnxti.citas;
+				PRODUCT_NAME = citas;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE45FBE26088717008B641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnxti.citas;
+				PRODUCT_NAME = citas;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6CE45FBF26088717008B641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bnxti.citas;
+				PRODUCT_NAME = citas;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6CE45FC126088717008B641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bnxti.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "citas (iOS)";
+			};
+			name = Debug;
+		};
+		6CE45FC226088717008B641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bnxti.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "citas (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE45FC426088717008B641E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bnxti.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "citas (macOS)";
+			};
+			name = Debug;
+		};
+		6CE45FC526088717008B641E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5U447RLDQ7;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bnxti.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "citas (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE45F8726088715008B641E /* Build configuration list for PBXProject "citas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE45FB826088717008B641E /* Debug */,
+				6CE45FB926088717008B641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE45FBA26088717008B641E /* Build configuration list for PBXNativeTarget "citas (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE45FBB26088717008B641E /* Debug */,
+				6CE45FBC26088717008B641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE45FBD26088717008B641E /* Build configuration list for PBXNativeTarget "citas (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE45FBE26088717008B641E /* Debug */,
+				6CE45FBF26088717008B641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE45FC026088717008B641E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE45FC126088717008B641E /* Debug */,
+				6CE45FC226088717008B641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE45FC326088717008B641E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE45FC426088717008B641E /* Debug */,
+				6CE45FC526088717008B641E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE45F8426088715008B641E /* Project object */;
+}
